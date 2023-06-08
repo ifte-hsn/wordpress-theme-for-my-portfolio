@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="1892" height="416" viewBox="0 0 1892 416">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        font-size: 225.042px;
+      }
+
+      .cls-2 {
+        fill: #fe4f70;
+        font-family: "Poppins-Black";
+      }
+
+      .cls-3 {
+        fill: #333;
+      }
+    </style>
+  </defs>
+  <text x="4" y="283" class="cls-1"><tspan class="cls-1"><tspan class="cls-2">{<tspan class="cls-3">Hello Iftekhar</tspan>}</tspan></tspan></text>
+</svg>
