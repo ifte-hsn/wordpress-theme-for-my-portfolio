@@ -3,10 +3,15 @@
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta http-equiv="Content-Type" content="text/html; <?php bloginfo( 'charset' ); ?>">
-	<title><?php bloginfo("name") ?></title>
+	<title>
+		<?php 
+			wp_title('|',true,'right'); 
+			bloginfo("name")
+		?>
+	</title>
 	<meta name="description" content="<?php bloginfo("name") ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+	<link rel="shortcut icon" type="image/x-icon" href="<?php echo THEMEROOT ?>/images/favicon.png">
 
 
 	<!--[if lt IE 9]>

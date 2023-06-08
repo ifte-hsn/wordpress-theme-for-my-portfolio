@@ -7,6 +7,8 @@
  * @package HelloIftekhar
  */
 
+ define('THEMEROOT',get_template_directory_uri());
+
  $helloifte_theme_path = get_template_directory() . '/inc/';
 
  // Theme version.

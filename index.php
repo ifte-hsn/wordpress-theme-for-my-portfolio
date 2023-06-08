@@ -25,7 +25,7 @@ get_header();
 
 						<div class="col-md-4 col-xs-12">
 							<!-- site logo -->
-							<a class="navbar-brand" href="classic.html"><img src="images/logo.svg" alt="logo" /></a> 
+							<a class="navbar-brand" href="classic.html"><img src="<?php echo THEMEROOT ?>/images/logo.svg" alt="logo" /></a> 
 						</div>
 
 						<div class="col-md-8 d-none d-md-block">
@@ -117,7 +117,7 @@ get_header();
                     </div>
                     <a href="blog-single.html">
                         <div class="thumb rounded">
-                            <div class="inner data-bg-image" data-bg-image="images/posts/featured-xl-1.jpg"></div>
+                            <div class="inner data-bg-image" data-bg-image="<?php echo THEMEROOT ?>/images/posts/featured-xl-1.jpg"></div>
                         </div>
                     </a>
                 </div>
@@ -133,7 +133,7 @@ get_header();
                     </div>
                     <a href="blog-single.html">
                         <div class="thumb rounded">
-                            <div class="inner data-bg-image" data-bg-image="images/posts/featured-xl-2.jpg"></div>
+                            <div class="inner data-bg-image" data-bg-image="<?php echo THEMEROOT ?>/images/posts/featured-xl-2.jpg"></div>
                         </div>
                     </a>
                 </div>
@@ -158,13 +158,13 @@ get_header();
 							</span>
 							<a href="blog-single.html">
 								<div class="inner">
-									<img src="images/posts/post-lg-1.jpg" alt="post-title" />
+									<img src="<?php echo THEMEROOT ?>/images/posts/post-lg-1.jpg" alt="post-title" />
 								</div>
 							</a>
 						</div>
 						<div class="details">
 							<ul class="meta list-inline mb-0">
-								<li class="list-inline-item"><a href="#"><img src="images/other/author-sm.png" class="author" alt="author"/>Katen Doe</a></li>
+								<li class="list-inline-item"><a href="#"><img src="<?php echo THEMEROOT ?>/images/other/author-sm.png" class="author" alt="author"/>Katen Doe</a></li>
 								<li class="list-inline-item">29 March 2021</li>
 								<li class="list-inline-item"><i class="icon-bubble"></i> (0)</li>
 							</ul>
@@ -198,13 +198,13 @@ get_header();
 							<a href="category.html" class="category-badge lg position-absolute">Inspiration</a>
 							<a href="blog-single.html">
 								<div class="inner">
-									<img src="images/posts/post-lg-2.jpg" alt="post-title" />
+									<img src="<?php echo THEMEROOT ?>/images/posts/post-lg-2.jpg" alt="post-title" />
 								</div>
 							</a>
 						</div>
 						<div class="details">
 							<ul class="meta list-inline mb-0">
-								<li class="list-inline-item"><a href="#"><img src="images/other/author-sm.png" class="author" alt="author"/>Katen Doe</a></li>
+								<li class="list-inline-item"><a href="#"><img src="<?php echo THEMEROOT ?>/images/other/author-sm.png" class="author" alt="author"/>Katen Doe</a></li>
 								<li class="list-inline-item">29 March 2021</li>
 								<li class="list-inline-item"><i class="icon-bubble"></i> (0)</li>
 							</ul>
@@ -241,13 +241,13 @@ get_header();
 							</span>
 							<a href="blog-single.html">
 								<div class="inner">
-									<img src="images/posts/post-lg-3.jpg" alt="post-title" />
+									<img src="<?php echo THEMEROOT ?>/images/posts/post-lg-3.jpg" alt="post-title" />
 								</div>
 							</a>
 						</div>
 						<div class="details">
 							<ul class="meta list-inline mb-0">
-								<li class="list-inline-item"><a href="#"><img src="images/other/author-sm.png" class="author" alt="author"/>Katen Doe</a></li>
+								<li class="list-inline-item"><a href="#"><img src="<?php echo THEMEROOT ?>/images/other/author-sm.png" class="author" alt="author"/>Katen Doe</a></li>
 								<li class="list-inline-item">29 March 2021</li>
 								<li class="list-inline-item"><i class="icon-bubble"></i> (0)</li>
 							</ul>
@@ -281,13 +281,13 @@ get_header();
 							<a href="category.html" class="category-badge lg position-absolute">Lifestyle</a>
 							<a href="blog-single.html">
 								<div class="inner">
-									<img src="images/posts/post-lg-4.jpg" alt="post-title" />
+									<img src="<?php echo THEMEROOT ?>/images/posts/post-lg-4.jpg" alt="post-title" />
 								</div>
 							</a>
 						</div>
 						<div class="details">
 							<ul class="meta list-inline mb-0">
-								<li class="list-inline-item"><a href="#"><img src="images/other/author-sm.png" class="author" alt="author"/>Katen Doe</a></li>
+								<li class="list-inline-item"><a href="#"><img src="<?php echo THEMEROOT ?>/images/other/author-sm.png" class="author" alt="author"/>Katen Doe</a></li>
 								<li class="list-inline-item">29 March 2021</li>
 								<li class="list-inline-item"><i class="icon-bubble"></i> (0)</li>
 							</ul>
@@ -332,8 +332,8 @@ get_header();
 					<div class="sidebar">
 						<!-- widget about -->
 						<div class="widget rounded">
-							<div class="widget-about data-bg-image text-center" data-bg-image="images/map-bg.png">
-								<img src="images/logo.svg" alt="logo" class="mb-4" />
+							<div class="widget-about data-bg-image text-center" data-bg-image="<?php echo THEMEROOT ?>/images/map-bg.png">
+								<img src="<?php echo THEMEROOT ?>/images/logo.svg" alt="logo" class="mb-4" />
 								<p class="mb-4">Hello, We’re content writer who is fascinated by content fashion, celebrity and lifestyle. We helps clients bring the right content to the right people.</p>
 								<ul class="social-icons list-unstyled list-inline mb-0">
 									<li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -350,7 +350,7 @@ get_header();
 						<div class="widget rounded">
 							<div class="widget-header text-center">
 								<h3 class="widget-title">Popular Posts</h3>
-								<img src="images/wave.svg" class="wave" alt="wave" />
+								<img src="<?php echo THEMEROOT ?>/images/wave.svg" class="wave" alt="wave" />
 							</div>
 							<div class="widget-content">
 								<!-- post -->
@@ -359,7 +359,7 @@ get_header();
 										<span class="number">1</span>
 										<a href="blog-single.html">
 											<div class="inner">
-												<img src="images/posts/tabs-1.jpg" alt="post-title" />
+												<img src="<?php echo THEMEROOT ?>/images/posts/tabs-1.jpg" alt="post-title" />
 											</div>
 										</a>
 									</div>
@@ -376,7 +376,7 @@ get_header();
 										<span class="number">2</span>
 										<a href="blog-single.html">
 											<div class="inner">
-												<img src="images/posts/tabs-2.jpg" alt="post-title" />
+												<img src="<?php echo THEMEROOT ?>/images/posts/tabs-2.jpg" alt="post-title" />
 											</div>
 										</a>
 									</div>
@@ -393,7 +393,7 @@ get_header();
 										<span class="number">3</span>
 										<a href="blog-single.html">
 											<div class="inner">
-												<img src="images/posts/tabs-3.jpg" alt="post-title" />
+												<img src="<?php echo THEMEROOT ?>/images/posts/tabs-3.jpg" alt="post-title" />
 											</div>
 										</a>
 									</div>
@@ -411,7 +411,7 @@ get_header();
 						<div class="widget rounded">
 							<div class="widget-header text-center">
 								<h3 class="widget-title">Explore Topics</h3>
-								<img src="images/wave.svg" class="wave" alt="wave" />
+								<img src="<?php echo THEMEROOT ?>/images/wave.svg" class="wave" alt="wave" />
 							</div>
 							<div class="widget-content">
 								<ul class="list">
@@ -430,7 +430,7 @@ get_header();
 						<div class="widget rounded">
 							<div class="widget-header text-center">
 								<h3 class="widget-title">Newsletter</h3>
-								<img src="images/wave.svg" class="wave" alt="wave" />
+								<img src="<?php echo THEMEROOT ?>/images/wave.svg" class="wave" alt="wave" />
 							</div>
 							<div class="widget-content">
 								<span class="newsletter-headline text-center mb-3">Join 70,000 subscribers!</span>
@@ -448,7 +448,7 @@ get_header();
 						<div class="widget rounded">
 							<div class="widget-header text-center">
 								<h3 class="widget-title">Celebration</h3>
-								<img src="images/wave.svg" class="wave" alt="wave" />
+								<img src="<?php echo THEMEROOT ?>/images/wave.svg" class="wave" alt="wave" />
 							</div>
 							<div class="widget-content">
 								<div class="post-carousel-widget">
@@ -458,7 +458,7 @@ get_header();
 											<a href="category.html" class="category-badge position-absolute">How to</a>
 											<a href="blog-single.html">
 												<div class="inner">
-													<img src="images/widgets/widget-carousel-1.jpg" alt="post-title" />
+													<img src="<?php echo THEMEROOT ?>/images/widgets/widget-carousel-1.jpg" alt="post-title" />
 												</div>
 											</a>
 										</div>
@@ -474,7 +474,7 @@ get_header();
 											<a href="category.html" class="category-badge position-absolute">Trending</a>
 											<a href="blog-single.html">
 												<div class="inner">
-													<img src="images/widgets/widget-carousel-2.jpg" alt="post-title" />
+													<img src="<?php echo THEMEROOT ?>/images/widgets/widget-carousel-2.jpg" alt="post-title" />
 												</div>
 											</a>
 										</div>
@@ -490,7 +490,7 @@ get_header();
 											<a href="category.html" class="category-badge position-absolute">How to</a>
 											<a href="blog-single.html">
 												<div class="inner">
-													<img src="images/widgets/widget-carousel-1.jpg" alt="post-title" />
+													<img src="<?php echo THEMEROOT ?>/images/widgets/widget-carousel-1.jpg" alt="post-title" />
 												</div>
 											</a>
 										</div>
@@ -513,7 +513,7 @@ get_header();
 						<div class="widget no-container rounded text-md-center">
 							<span class="ads-title">- Sponsored Ad -</span>
 							<a href="#" class="widget-ads">
-								<img src="images/ads/ad-360.png" alt="Advertisement" />	
+								<img src="<?php echo THEMEROOT ?>/images/ads/ad-360.png" alt="Advertisement" />	
 							</a>
 						</div>
 
@@ -521,7 +521,7 @@ get_header();
 						<div class="widget rounded">
 							<div class="widget-header text-center">
 								<h3 class="widget-title">Tag Clouds</h3>
-								<img src="images/wave.svg" class="wave" alt="wave" />
+								<img src="<?php echo THEMEROOT ?>/images/wave.svg" class="wave" alt="wave" />
 							</div>
 							<div class="widget-content">
 								<a href="#" class="tag">#Trending</a>
@@ -550,137 +550,38 @@ get_header();
 			<div class="instagram-feed d-flex flex-wrap">
 				<div class="insta-item col-sm-2 col-6 col-md-2">
 					<a href="#">
-						<img src="images/insta/insta-1.jpg" alt="insta-title" />
+						<img src="<?php echo THEMEROOT ?>/images/insta/insta-1.jpg" alt="insta-title" />
 					</a>
 				</div>
 				<div class="insta-item col-sm-2 col-6 col-md-2">
 					<a href="#">
-						<img src="images/insta/insta-2.jpg" alt="insta-title" />
+						<img src="<?php echo THEMEROOT ?>/images/insta/insta-2.jpg" alt="insta-title" />
 					</a>
 				</div>
 				<div class="insta-item col-sm-2 col-6 col-md-2">
 					<a href="#">
-						<img src="images/insta/insta-3.jpg" alt="insta-title" />
+						<img src="<?php echo THEMEROOT ?>/images/insta/insta-3.jpg" alt="insta-title" />
 					</a>
 				</div>
 				<div class="insta-item col-sm-2 col-6 col-md-2">
 					<a href="#">
-						<img src="images/insta/insta-4.jpg" alt="insta-title" />
+						<img src="<?php echo THEMEROOT ?>/images/insta/insta-4.jpg" alt="insta-title" />
 					</a>
 				</div>
 				<div class="insta-item col-sm-2 col-6 col-md-2">
 					<a href="#">
-						<img src="images/insta/insta-5.jpg" alt="insta-title" />
+						<img src="<?php echo THEMEROOT ?>/images/insta/insta-5.jpg" alt="insta-title" />
 					</a>
 				</div>
 				<div class="insta-item col-sm-2 col-6 col-md-2">
 					<a href="#">
-						<img src="images/insta/insta-6.jpg" alt="insta-title" />
+						<img src="<?php echo THEMEROOT ?>/images/insta/insta-6.jpg" alt="insta-title" />
 					</a>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<!-- footer -->
-	<footer>
-		<div class="container-xl">
-			<div class="footer-inner">
-				<div class="row d-flex align-items-center gy-4">
-					<!-- copyright text -->
-					<div class="col-md-4">
-						<span class="copyright">© 2021 Katen. Template by ThemeGer.</span>
-					</div>
-
-					<!-- social icons -->
-					<div class="col-md-4 text-center">
-						<ul class="social-icons list-unstyled list-inline mb-0">
-							<li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-							<li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
-							<li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
-							<li class="list-inline-item"><a href="#"><i class="fab fa-pinterest"></i></a></li>
-							<li class="list-inline-item"><a href="#"><i class="fab fa-medium"></i></a></li>
-							<li class="list-inline-item"><a href="#"><i class="fab fa-youtube"></i></a></li>
-						</ul>
-					</div>
-
-					<!-- go to top button -->
-					<div class="col-md-4">
-						<a href="#" id="return-to-top" class="float-md-end"><i class="icon-arrow-up"></i>Back to Top</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-
-</div><!-- end site wrapper -->
-
-<!-- search popup area -->
-<div class="search-popup">
-	<!-- close button -->
-	<button type="button" class="btn-close" aria-label="Close"></button>
-	<!-- content -->
-	<div class="search-content">
-		<div class="text-center">
-			<h3 class="mb-4 mt-0">Press ESC to close</h3>
-		</div>
-		<!-- form -->
-		<form class="d-flex search-form">
-			<input class="form-control me-2" type="search" placeholder="Search and press enter ..." aria-label="Search">
-			<button class="btn btn-default btn-lg" type="submit"><i class="icon-magnifier"></i></button>
-		</form>
-	</div>
-</div>
-
-<!-- canvas menu -->
-<div class="canvas-menu d-flex align-items-end flex-column">
-	<!-- close button -->
-	<button type="button" class="btn-close" aria-label="Close"></button>
-
-	<!-- logo -->
-	<div class="logo">
-		<img src="images/logo.svg" alt="Katen" />
-	</div>
-
-	<!-- menu -->
-	<nav>
-		<ul class="vertical-menu">
-			<li class="active">
-				<a href="index.html">Home</a>
-				<ul class="submenu">
-					<li><a href="index.html">Magazine</a></li>
-					<li><a href="personal.html">Personal</a></li>
-					<li><a href="personal-alt.html">Personal Alt</a></li>
-					<li><a href="minimal.html">Minimal</a></li>
-					<li><a href="classic.html">Classic</a></li>
-				</ul>
-			</li>
-			<li><a href="category.html">Lifestyle</a></li>
-			<li><a href="category.html">Inspiration</a></li>
-			<li>
-				<a href="#">Pages</a>
-				<ul class="submenu">
-					<li><a href="category.html">Category</a></li>
-					<li><a href="blog-single.html">Blog Single</a></li>
-					<li><a href="blog-single-alt.html">Blog Single Alt</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
-	</nav>
-
-	<!-- social icons -->
-	<ul class="social-icons list-unstyled list-inline mb-0 mt-auto w-100">
-		<li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-		<li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
-		<li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
-		<li class="list-inline-item"><a href="#"><i class="fab fa-pinterest"></i></a></li>
-		<li class="list-inline-item"><a href="#"><i class="fab fa-medium"></i></a></li>
-		<li class="list-inline-item"><a href="#"><i class="fab fa-youtube"></i></a></li>
-	</ul>
-</div>
-
-</body>
-</html>
+<?php
+get_footer();
+?>
